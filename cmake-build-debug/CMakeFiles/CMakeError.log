@@ -1,0 +1,36 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.23.28105/bin/Hostx86/x86/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+2
+Compilateur d'optimisation Microsoft (R) C/C++ version 19.23.28106.4 pour x86
+Copyright (C) Microsoft Corporation. Tous droits réservés.
+
+CMakeCCompilerId.c
+Microsoft (R) Incremental Linker Version 14.23.28106.4
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCCompilerId.exe 
+CMakeCCompilerId.obj 
+LINK : fatal error LNK1104: impossible d'ouvrir le fichier 'kernel32.lib'
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/chepj/Desktop/cour ESGI 2021/projet_annuel/Projet C 3IABD/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_44c2f\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_44c2f.dir\build.make /nologo -L                  CMakeFiles\cmTC_44c2f.dir\build
+Building C object CMakeFiles/cmTC_44c2f.dir/testCCompiler.c.obj
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @C:\Users\chepj\AppData\Local\Temp\nm7A2B.tmp
+testCCompiler.c
+Linking C executable cmTC_44c2f.exe
+	C:\Users\chepj\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.7148.70\bin\cmake\win\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\cmTC_44c2f.dir --rc=rc --mt=CMAKE_MT-NOTFOUND --manifests  -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_44c2f.dir\objects1.rsp @C:\Users\chepj\AppData\Local\Temp\nm7BC2.tmp
+RC Pass 1: command "rc /fo CMakeFiles\cmTC_44c2f.dir/manifest.res CMakeFiles\cmTC_44c2f.dir/manifest.rc" failed (exit code 0) with the following output:
+Le fichier spécifié est introuvableNMAKE : fatal error U1077: 'C:\Users\chepj\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.7148.70\bin\cmake\win\bin\cmake.exe'á: code retour '0xffffffff'
+Stop.
+NMAKE : fatal error U1077: '"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\bin\HostX86\x86\nmake.exe"'á: code retour '0x2'
+Stop.
+
+
+

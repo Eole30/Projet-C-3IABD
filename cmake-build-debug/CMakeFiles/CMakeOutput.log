@@ -1,0 +1,18 @@
+The system is: Windows - 10.0.19043 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.23.28105/bin/Hostx86/x86/cl.exe 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+Compilateur d'optimisation Microsoft (R) C/C++ version 19.23.28106.4 pour x86
+Copyright (C) Microsoft Corporation. Tous droits réservés.
+
+CMakeCCompilerId.c
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+
+The C compiler identification is MSVC, found in "C:/Users/chepj/Desktop/cour ESGI 2021/projet_annuel/Projet C 3IABD/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.obj"
+
